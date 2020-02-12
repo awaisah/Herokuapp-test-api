@@ -12,3 +12,8 @@ An API made using Express JS which was developed as part of a programming test
 ### London longitude and latitude
 
 In order to get a starting point I first found the coordinates to start with for London. I simply typed "London longitude and latitude" whcih returned "51.5074° N, 0.1278° W" which would be Latitude: 51.5074 and Longitude: 0.1278. I have hardcoded this into my api.js file. Understandably these values will very much likely vary for different individuals depending on the source and the exactly location within London being used.
+
+### Run Project
+
+Once you have cloned this repository perform 'npm install' on the root directory. This will install the dependencies for the project (e.g. axios, express).
+Once the install process is complete proceed to enter 'npm start' which should start the server. You should expect to see the following message in your terminal "Listening to requests on http://localhost:3000". This tells us that the server is accessible at http://localhost:3000.
