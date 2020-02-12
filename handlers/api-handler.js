@@ -52,3 +52,6 @@ function isCoordinatesWithinRange(distance, lat, lon, user) {
 function getMiles(i) {
     return i*0.000621371192;
 }
+
+// only exported for testing purposes
+module.exports.isCoordinatesWithinRange = isCoordinatesWithinRange
