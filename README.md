@@ -17,3 +17,7 @@ In order to get a starting point I first found the coordinates to start with for
 
 Once you have cloned this repository perform 'npm install' on the root directory. This will install the dependencies for the project (e.g. axios, express).
 Once the install process is complete proceed to enter 'npm start' which should start the server. You should expect to see the following message in your terminal "Listening to requests on http://localhost:3000". This tells us that the server is accessible at http://localhost:3000.
+
+### Testing Project
+
+in order to test the project perform 'npm test' on the root directory. This will run a suite of test which cover all important bases of the api. These can be found in the file '/tests/api.test.js'.
